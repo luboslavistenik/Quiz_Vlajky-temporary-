@@ -18,9 +18,9 @@ namespace Quiz_Vlajky
             InitializeComponent();
         }
 
-        private void ImageButton_Clicked(object sender, EventArgs e)
+        private void InitializeComponent()
         {
-            Navigation.PushAsync(new Page1());
+            throw new NotImplementedException();
         }
     }
 }

@@ -4,8 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Quiz_Vlajky.MainPage">
-
+             x:Class="Quiz_Vlajky.Page1">
     <Grid RowSpacing="50" ColumnSpacing="20" BackgroundColor="#333333">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -25,21 +24,21 @@
         <Label
             Grid.Row="1"
             Grid.Column="1"
-            Text="1/10"
+            Text="2/10"
             TextColor="White"
             FontSize="Large"
             Margin="70, 0, 0, 0"/>
-            
+
         <Label
             Grid.Row="1"
-            Text="Slovakia"
+            Text="France"
             HorizontalOptions="Center"
             FontSize="Large"
             TextColor="White"/>
-        <ImageButton Source="Slovakia.png" Grid.Row="2" Grid.Column="0" Margin="20, 10, 20, 10" Clicked="ImageButton_Clicked"/>
-        <ImageButton Source="Czech_Republic.png" Grid.Row="2" Grid.Column="1" Margin="20, 10, 20, 10"/>
-        <ImageButton Source="Netherlands.png" Grid.Row="3" Grid.Column="0" Margin="20, 10, 20, 10"/>
-        <ImageButton Source="Estonia.png" Grid.Row="3" Grid.Column="1" Margin="20, 10, 20, 10"/>
+        <ImageButton Source="Belgium.png" Grid.Row="2" Grid.Column="0" Margin="20, 10, 20, 10"/>
+        <ImageButton Source="Sweden.png" Grid.Row="2" Grid.Column="1" Margin="20, 10, 20, 10"/>
+        <ImageButton Source="France.png" Grid.Row="3" Grid.Column="0" Margin="20, 10, 20, 10"/>
+        <ImageButton Source="Hungary.png" Grid.Row="3" Grid.Column="1" Margin="20, 10, 20, 10"/>
     </Grid>
 
 </ContentPage>
